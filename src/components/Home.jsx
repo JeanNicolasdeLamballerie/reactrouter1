@@ -1,12 +1,10 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
 const Home = () => {
     return(
         <>
-        <Link to='/notre-histoire'>To history.</Link>
         <p> A very useful paragraph.</p>
         <p>Bienvenue sur l'accueil.</p>
-        <Link to='/'>Back to homeland.</Link>
         </>)
 }
 
