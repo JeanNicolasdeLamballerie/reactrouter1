@@ -4,9 +4,9 @@ const History = () => {
     return (
         <>
             <Link to='/notre-histoire'>To history.</Link>
-            <Link to='/'>Back to homeland.</Link>
             <p> The MOST useful paragraph.</p>
             <p>Notre histoire.</p>
+            <Link to='/'>Back to homeland.</Link>
 
         </>)
 }
